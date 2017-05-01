@@ -1,4 +1,4 @@
-library("rLiDAR", lib.loc="~/R/win-library/3.2")
+library("rLiDAR")
 library(fields) 
 
 inFile=readLAS("C:\\lidar_file.las", short=FALSE)
